@@ -1,0 +1,107 @@
+.principalBody {
+    background-color: #f8fafa;
+}
+.margeCont {
+    margin-top: 0.1%;
+}
+.grafContentPrim{
+    width: 90%;
+    height: auto;
+    margin: 3%;
+    display: flex;
+
+}
+.grafContent{
+    width: 50%;
+    height: 350px;
+    text-align: justify;
+    /* border: 2px solid rgb(1, 24, 8); */
+    overflow: hidden;
+    padding: 10px;
+    box-sizing: border-box;
+    /* box-shadow: 1px 1px 10px 1px rgb(13, 12, 12); */
+    border-radius: 10px;
+    
+}
+a{
+    display: inline-block; 
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none; 
+    transition: margin 0.3s ease, border-color 0.3s ease; 
+    border-radius: 5px;
+
+}  
+a:hover {
+    margin: 10px; 
+    text-align: right; 
+    padding: 10px;
+}
+ul{
+    font-size: 150%;
+}
+
+.RecDesp{
+    display: inline-block; 
+    padding: 10px 20px;
+    font-size: 16px;
+    /* color: white; */
+    text-decoration: none; 
+    transition: margin 0.3s ease, border-color 0.3s ease; 
+    border-radius: 5px;
+    
+}  
+.RecDesp:hover {
+    margin: 10px; 
+    text-align: center; 
+    padding: 10px;
+    
+}
+.RecDespImg {
+    width: 70px; 
+    height: 70px; 
+    margin-left: 5px;
+}
+
+.montserrat{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    color: #000;
+}
+
+.imgConfigs {
+    width: 20px; 
+    height: 20px; 
+    margin-left: 5px;
+}
+
+.offcanvas-body a{
+    margin-top: 5%;
+    margin-right: 10%;
+    text-align: right;
+}
+
+.offcanvas-body-inferior{
+    margin-top: 15%;
+}
+
+.offCavasLink{
+    display: inline-block; 
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none; 
+    transition: margin 0.3s ease, border-color 0.3s ease; 
+    border-radius: 5px;
+}  
+
+.offCavasLink:hover {
+    margin: 10px; 
+    border: 2px solid #298e04; 
+    text-align: right; 
+    padding: 10px;
+}
+
